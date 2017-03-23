@@ -2,7 +2,7 @@
 I. Développer une application Drupal « Univers Foot » offrant les fonctionnalités suivantes:
 
 Gestion et affichage:
- - de news
+ (- de news)
  - de championnats. Exemple: Ligue 1, Liga, Calcio
  - de calendriers et résultats des rencontres
  - des équipes (clubs)
@@ -20,3 +20,4 @@ Source d’inspiration: http://www.lequipe.fr/Football/Ligue-1
 II. L’application utilisera un thème personnalisé « universfoot » qui pourra éventuellement se servir de Bootstrap.
 
 ***************************************************************************
+https://github.com/cdufour/drupal-dev9

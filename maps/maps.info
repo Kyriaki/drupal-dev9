@@ -1,0 +1,6 @@
+; $Id$
+ 
+name = Maps
+description = Map module
+package = Formation
+core = 7.x
