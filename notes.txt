@@ -1,10 +1,12 @@
 *** notes ***
-L'archive universfoot_base contient:
+Le dossier universfoot_base contient:
  - la base de données: universfoot.sql
- - le dossier sites contenant les fichiers uploaded par les visiteurs (sites/default/files)
+ - les dossiers:
+	- sites: contient les fichiers uploaded par les visiteurs (sites/default/files)
+	- module/custom/formation: module didactique présentant différents exemples/snippets concernant la création d’un module personnalisé Drupal 8 (commentaires à venir)
 
 Modifier éventuellement les informations de database dans le fichier sites/default/settings.php
 
-L'administrateur pour cette base de données est:
+Administrateur de la base de données universfoot.sql
 - u: chris
 - p: dev9

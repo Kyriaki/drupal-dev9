@@ -1,0 +1,39 @@
+formation.route1:
+  path: '/route1'
+  defaults:
+    _controller: '\Drupal\formation\Controller\FirstController::test'
+    _title: 'Première route'
+  requirements:
+    _permission: 'access content'
+
+formation.fruits:
+  path: '/fruits'
+  defaults:
+    _controller: '\Drupal\formation\Controller\FirstController::fruits'
+    _title: 'Route fruitée'
+  requirements:
+    _permission: 'access content'
+
+formation.utilisateurs:
+  path: '/utilisateurs'
+  defaults:
+    _controller: '\Drupal\formation\Controller\FirstController::utilisateurs'
+    _title: 'Utilisateurs'
+  requirements:
+    _permission: 'access content'
+
+formation.database_exemples:
+  path: '/database/exemples'
+  defaults:
+    _controller: '\Drupal\formation\Controller\FirstController::database_exemples'
+    _title: 'Database Exemples'
+  requirements:
+    _permission: 'access content'
+
+formation.form_demo:
+  path: '/form/demo'
+  defaults:
+    _form: '\Drupal\formation\Plugin\Form\DemoForm'
+    _title: 'Formulaire de démo'
+  requirements:
+    _permission: 'administer blocks'

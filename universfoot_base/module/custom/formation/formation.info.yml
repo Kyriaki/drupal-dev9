@@ -1,0 +1,6 @@
+name: Formation
+description: Module de formation
+package: Formation
+type: module
+version: 1.0
+core: 8.x
